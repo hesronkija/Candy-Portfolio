@@ -20,14 +20,14 @@ const Experiences = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.2 }}
         >
-          <div className="w-full lg:w-1/2">
+          <div className="w-full md:w-1/3">
             <h2 className="text-lg font-bold text-center md:text-start">{experience.position}</h2>
-            <p className="flex flex-col text-sm text-orange-400/70 md:flex-row lg:justify-between mb-2 text-center md:text-start">
+            <p className="flex flex-col text-sm text-orange-400/70 md:flex-row md:justify-between mb-2 text-center md:text-start">
               <span>{experience.organization}</span>
               <span className="font-thin text-neutral-400 pr-4">{experience.duration}</span>
             </p>
           </div>
-          <div className="w-full text-center md:text-start md:w-1/2">
+          <div className="w-full text-center md:text-start md:w-2/3">
             <ul>
               {experience.roles.map((role, roleIndex) => (
                 <motion.li

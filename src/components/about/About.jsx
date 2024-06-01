@@ -60,7 +60,7 @@ const About = () => {
       </div>
       <div className="flex flex-wrap justify-center">
         <motion.h2
-          className="mb-4 text-lg font-bold"
+          className="mb-4 text-lg font-bold w-full"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{
             opacity: 1,
@@ -71,7 +71,7 @@ const About = () => {
           Key Competences
         </motion.h2>
         <motion.ul
-          className="flex flex-wrap gap-2 text-sm"
+          className="flex flex-wrap gap-2 text-sm h-fit"
           variants={container}
           initial="hidden"
           whileInView="visible"
