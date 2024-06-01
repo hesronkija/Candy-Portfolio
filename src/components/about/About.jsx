@@ -48,7 +48,7 @@ const About = () => {
           Me
         </motion.div>
       </div>
-      <div className="mb-8 text-sm font-thin tracking-wide lg:text-lg">
+      <div className="mb-8 text-sm font-thin tracking-wide md:text-lg">
         {" "}
         <motion.p
         initial={{ opacity: 0, x: -100 }}

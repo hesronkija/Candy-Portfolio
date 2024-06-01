@@ -21,9 +21,9 @@ const Motion = (duration, delay) => ({
 const Hero = () => {
   return (
     <section className="mb-16 flex flex-wrap">
-      <div className="flex-col lg:w-1/2">
+      <div className="flex-col md:w-1/2">
         <motion.h1
-          className="pb-10 text-6xl font-thin tracking-wide lg:pb-16"
+          className="pb-10 text-6xl font-thin tracking-wide md:pb-16"
           variants={Motion(0.7, 0.1)}
           initial="hidden"
           whileInView="animate"
@@ -39,7 +39,7 @@ const Hero = () => {
           JOURNALIST
         </motion.h1>
         <motion.p
-          className="mb-8 text-sm font-thin tracking-wide lg:pr-8 lg:text-lg "
+          className="mb-8 text-sm font-thin tracking-wide md:pr-8 md:text-lg "
           variants={Motion(0.7, 0.7)}
           initial="hidden"
           whileInView="animate"
@@ -48,7 +48,7 @@ const Hero = () => {
         </motion.p>
       </div>
       <motion.div
-        className="flex justify-center lg:w-1/2"
+        className="flex justify-center md:w-1/2"
         initial={{ x: 100, opacity: 0 }}
         whileInView={{
           x: 0,

@@ -8,7 +8,7 @@ const Navbar = () => {
       <div>
         <Link to="/">
           <motion.h1
-            className=" text-2xl font-bold italic hover:cursor-pointer lg:text-4xl"
+            className=" text-2xl font-bold italic hover:cursor-pointer md:text-4xl"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 1.1 }}
           >
