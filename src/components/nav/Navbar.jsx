@@ -2,6 +2,22 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+export const socialMedia = () => {
+  return (
+    <div className="flex justify-center gap-4 text-2xl ">
+      <a href="https://www.instagram.com/candyzillale/" target="_blank">
+        <FaInstagram className="duration-400 text-[#d62976] transition-all hover:scale-105 hover:text-white" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/candy-zillale-695682221/"
+        target="_blank"
+      >
+        <FaLinkedinIn className="text-[#0077b5] transition-all duration-500 hover:scale-105 hover:text-white" />
+      </a>
+    </div>
+  );
+};
+
 const Navbar = () => {
   return (
     <nav className=" mx-auto mb-20 flex w-full items-center justify-between py-6">
@@ -16,17 +32,7 @@ const Navbar = () => {
           </motion.h1>
         </Link>
       </div>
-      <div className="flex justify-center gap-4 text-2xl ">
-        <a href="https://www.instagram.com/candyzillale/" target="_blank">
-          <FaInstagram className="duration-400 text-[#d62976] transition-all hover:scale-105 hover:text-white" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/candy-zillale-695682221/"
-          target="_blank"
-        >
-          <FaLinkedinIn className="text-[#0077b5] transition-all duration-500 hover:scale-105 hover:text-white" />
-        </a>
-      </div>
+      {socialMedia()}
     </nav>
   );
 };

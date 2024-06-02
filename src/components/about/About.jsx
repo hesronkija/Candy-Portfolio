@@ -31,7 +31,7 @@ const About = () => {
           whileInView={{
             opacity: 1,
             y: 0,
-            transition: { duration: 1, delay: 0.5 },
+            transition: { duration: 0.7, delay: 0.5 },
           }}
         >
           About
@@ -42,7 +42,7 @@ const About = () => {
           whileInView={{
             opacity: 1,
             x: 0,
-            transition: { duration: 1, delay: 0.5 },
+            transition: { duration: 0.7, delay: 0.5 },
           }}
         >
           Me

@@ -59,7 +59,7 @@ const Hero = () => {
         <img
           src={CandyPic}
           alt="Profile Picture"
-          className="rounded-xl shadow-lg shadow-zinc-300/40"
+          className="rounded-xl shadow-lg shadow-zinc-300/40 brightness-50"
         />
       </motion.div>
     </section>
