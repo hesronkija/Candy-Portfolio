@@ -15,7 +15,7 @@ const Contact = () => {
       <motion.h2 className="mb-8 w-full text-center text-4xl">
         Contact Me
       </motion.h2>
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col text-sm md:text-md items-center justify-between text-emerald-50 md:flex-row">
         <p className="italic">
           Email:{" "}
           <motion.a
@@ -31,7 +31,7 @@ const Contact = () => {
           <p className="mb-2">Follow me on Social Media</p> {socialMedia()}
         </div>
       </div>
-      <div className="mt-8 text-center text-sm font-thin">
+      <div className="mt-8 text-center text-[10px] font-thin md:text-sm">
         <p>© {currentYear} Candy Zillale</p>
         <p>All rights reserved. Created by Hesron Kija</p>
       </div>
